@@ -56,7 +56,7 @@ const Depoimentos = () => {
   };
 
   return (
-    <section className="depoimentos-section">
+    <section id="depoimentos" className="depoimentos-section">
       <div className="depoimentos-heading">
         <p className="small-heading">| DEPOIMENTOS</p>
         <h2>O que os meus clientes dizem?</h2>
