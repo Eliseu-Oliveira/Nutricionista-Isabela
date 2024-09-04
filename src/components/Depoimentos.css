@@ -1,0 +1,99 @@
+.depoimentos-section {
+  padding: 50px 0;
+  text-align: center;
+  background-color: #f4f7f6;
+}
+
+.depoimentos-heading {
+  margin-bottom: 40px;
+}
+
+.depoimentos-heading h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.depoimentos-heading p {
+  font-size: 18px;
+  color: #888;
+}
+
+.depoimentos-container {
+  display: flex;
+  justify-content: center; /* Centraliza os depoimentos */
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.depoimento-item {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 300px; /* Reduz o tamanho máximo dos depoimentos */
+  flex: 1 1 calc(33.33% - 40px); /* Calcula a largura com base no número de depoimentos por linha */
+  margin: 10px; /* Reduz a margem */
+  transition: opacity 0.5s ease;
+  opacity: 1;
+}
+
+.depoimento-item.fade-out {
+  opacity: 0;
+}
+
+.depoimento-item.fade-in {
+  opacity: 1;
+}
+
+.depoimento-item:hover {
+  transform: translateY(-5px);
+}
+
+.depoimento-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.depoimento-avatar {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+}
+
+.depoimento-header h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.depoimento-header p {
+  color: #f39c12;
+  font-size: 16px;
+}
+
+.depoimento-texto {
+  font-size: 16px;
+  color: #555;
+}
+
+.depoimentos-paginacao {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.ponto {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ponto.ativo,
+.ponto:hover {
+  background-color: #f39c12;
+}

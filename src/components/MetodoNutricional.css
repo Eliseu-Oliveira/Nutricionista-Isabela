@@ -1,0 +1,76 @@
+.metodo-nutricional {
+  background-color: #f5f8fa;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.metodo-header p {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #bfa66b;
+}
+
+.metodo-header h2 {
+  font-size: 1.8rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.metodo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+  gap: 20px; /* Espaçamento entre os itens */
+  justify-content: center; /* Centraliza a grade inteira na página */
+  max-width: 1200px; /* Define a largura máxima da grid */
+  margin: 0 auto; /* Centraliza a grid horizontalmente */
+}
+
+.metodo-item {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.metodo-item:hover {
+  transform: scale(1.05); /* Aumenta o tamanho do bloco */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Aumenta a sombra para dar mais destaque */
+}
+
+.metodo-item img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.metodo-item:hover img {
+  transform: scale(1.1); /* Aumenta levemente a imagem ao passar o mouse */
+}
+
+.metodo-item h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.metodo-item p {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .metodo-grid {
+      grid-template-columns: 1fr; /* Muda para 1 coluna no mobile */
+  }
+
+  .metodo-item {
+      width: 100%;
+      max-width: 400px; /* Aumenta o tamanho dos itens no mobile */
+  }
+}
