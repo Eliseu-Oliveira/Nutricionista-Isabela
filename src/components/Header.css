@@ -1,89 +1,87 @@
 .header {
-  position: fixed; /* Mantém o header fixo no topo da página */
-  top: 0; /* Alinha o header ao topo da página */
-  left: 0; /* Alinha o header à esquerda da página */
-  width: 100%; /* Faz o header ocupar toda a largura da tela */
-  display: flex; /* Usa flexbox para layout do header */
-  justify-content: center; /* Centraliza os itens horizontalmente */
-  align-items: center; /* Centraliza os itens verticalmente */
-  padding: 8px 4px; /* Adiciona espaço interno ao redor do conteúdo do header */
-  background-color: #fff; /* Define a cor de fundo do header */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve ao header */
-  z-index: 1000; /* Garante que o header fique acima de outros elementos */
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 4px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .logo {
-  display: flex; /* Usa flexbox para layout da logo */
-  align-items: center; /* Alinha a logo verticalmente no centro */
+  display: flex;
+  align-items: center;
   margin-right: 200px;
-  
 }
 
 .logo img {
-  width: 35px; /* Define a largura da imagem da logo */
-  margin-right: 15px; /* Adiciona espaço à direita da imagem da logo */
+  width: 35px;
+  margin-right: 15px;
 }
 
 .doctor-name {
-  font-size: 1.2rem; /* Define o tamanho da fonte do nome do médico */
-  color: #bd4f1ccc; /* Define a cor do texto do nome do médico */
-  font-weight: bold; /* Define o peso da fonte como negrito */
+  font-size: 1.2rem;
+  color: #bd4f1ccc;
+  font-weight: bold;
 }
 
 .navbar {
-  display: flex; /* Usa flexbox para layout do menu de navegação */
-  align-items: center; /* Alinha os itens do menu verticalmente no centro */
-  margin-right: 40px; /* Espaçamento entre o menu e o botão de agendamento */
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
 }
 
 .navbar ul {
-  display: flex; /* Usa flexbox para layout da lista de itens do menu */
-  list-style: none; /* Remove os marcadores da lista */
-  margin: 0; /* Remove a margem padrão da lista */
-  padding: 0; /* Remove o padding padrão da lista */
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar ul li {
-  margin-right: 40px; /* Espaço entre itens individuais do menu */
+  margin-right: 40px;
 }
 
 .navbar ul li a {
-  text-decoration: none; /* Remove o sublinhado dos links */
-  color: #333; /* Define a cor do texto dos links */
-  font-weight: 500; /* Define o peso da fonte dos links */
-  font-size: 1rem; /* Define o tamanho da fonte dos links */
-  transition: color 0.3s; /* Adiciona uma transição suave para a cor dos links */
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: color 0.3s;
 }
 
 .navbar ul li a:hover {
-  color: #965c06cc; /* Define a cor dos links quando o mouse passa sobre eles */
+  color: #965c06cc;
 }
 
 .appointment-btn {
-  display: flex; /* Usa flexbox para layout do botão de agendamento */
-  align-items: center; /* Alinha o botão verticalmente no centro */
+  display: flex;
+  align-items: center;
 }
 
 .btn-agendar {
-  padding: 10px 25px; /* Adiciona espaço interno ao redor do texto do botão */
-  background-color: #F7A353; /* Define a cor de fundo do botão */
-  color: rgba(0, 0, 0, 0.726); /* Define a cor do texto do botão */
-  text-decoration: none; /* Remove o sublinhado do texto do botão */
-  border-radius: 8px; /* Adiciona bordas arredondadas ao botão */
-  font-weight: bold; /* Define o peso da fonte do texto do botão como negrito */
-  display: flex; /* Usa flexbox para layout do botão */
-  align-items: center; /* Alinha o texto do botão verticalmente no centro */
-  transition: background-color 0.3s ease; /* Adiciona uma transição suave para a cor de fundo do botão */
-  
+  padding: 10px 25px;
+  background-color: #F7A353;
+  color: rgba(0, 0, 0, 0.726);
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease;
 }
 
 .btn-agendar span {
-  margin-left: 8px; /* Adiciona espaço à esquerda do símbolo de seta */
+  margin-left: 8px;
 }
 
 .btn-agendar:hover {
-  background-color: #e69547; /* Define a cor de fundo do botão quando o mouse passa sobre ele */
+  background-color: #e69547;
 }
 
 .btn-pagar {
@@ -99,4 +97,57 @@
 
 .btn-pagar:hover {
   background-color: #e05500;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .logo {
+    margin-right: 100px;
+  }
+
+  .navbar ul li {
+    margin-right: 20px;
+  }
+
+  .btn-agendar {
+    padding: 8px 20px;
+  }
+
+  .btn-pagar {
+    padding: 8px 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .logo {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .navbar {
+    margin-right: 0;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar ul li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .btn-agendar {
+    padding: 8px 15px;
+  }
+
+  .btn-pagar {
+    padding: 8px 10px;
+  }
 }

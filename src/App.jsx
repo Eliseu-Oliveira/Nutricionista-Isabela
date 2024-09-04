@@ -9,7 +9,7 @@ import Cards from "./components/Cards";
 import MetodoNutricional from "./components/MetodoNutricional";
 import GallerySlider from "./components/GallerySlider";
 import Depoimentos from "./components/Depoimentos";
-import WhatsAppIcon from "./components/whatsappicon";
+import WhatsAppIcon from "./components/WhatsAppIcon";
 
 import Footer from "./components/Footer";
 import "./App.css";

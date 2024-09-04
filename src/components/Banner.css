@@ -7,11 +7,11 @@
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
-  justify-content: center; /* Alinha o conteúdo mais próximo do centro */
+  justify-content: center;
   align-items: center;
   color: #fff;
   overflow: hidden;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
 }
 
 .banner::before {
@@ -27,13 +27,13 @@
 
 .banner-content {
   position: relative;
-  max-width: 800px; /* Limita a largura do conteúdo */
+  max-width: 800px;
   padding: 20px;
   background: transparent;
   color: #fff;
   z-index: 2;
-  text-align: left; /* Mantém o texto alinhado à esquerda */
-  margin-left: -25%; /* Centraliza sutilmente o conteúdo */
+  text-align: left;
+  margin-left: -25%;
 }
 
 .separator {
@@ -49,7 +49,7 @@
 .banner p {
   font-size: 1.2rem;
   margin-top: 10px;
-  line-height: 1.4; /* Melhora o espaçamento entre linhas */
+  line-height: 1.4;
 }
 
 .tagline {
@@ -59,9 +59,41 @@
 }
 
 .banner p:last-child {
-  margin-top: 30px; /* Espaçamento extra para a nota final */
+  margin-top: 30px;
   font-style: italic;
   font-size: 1.5rem;
 }
 
+/* Media Queries */
+@media (max-width: 768px) {
+  .banner {
+    height: 60vh;
+  }
 
+  .banner-content {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .banner h1 {
+    font-size: 2.5rem;
+  }
+
+  .banner p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner {
+    height: 50vh;
+  }
+
+  .banner h1 {
+    font-size: 2rem;
+  }
+
+  .banner p {
+    font-size: 0.9rem;
+  }
+}
