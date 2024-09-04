@@ -44,3 +44,21 @@
   display: block;
   margin: 0 auto;
 }
+
+/* Media Queries para dispositivos móveis */
+@media (max-width: 600px) {
+  .modal-content {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .close-modal {
+    top: 5px;
+    right: 5px;
+    font-size: 18px;
+  }
+
+  .qr-code-image {
+    max-width: 250px;
+  }
+}
