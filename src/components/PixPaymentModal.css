@@ -19,7 +19,6 @@
   width: 90%;
   max-width: 400px;
   position: relative;
-  
 }
 
 .close-modal {
@@ -36,13 +35,30 @@
   margin-top: 20px;
 }
 
-
 .qr-code-image {
   width: 100%;
   max-width: 300px;
   height: auto;
   display: block;
   margin: 0 auto;
+}
+
+.copy {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.copy:hover {
+  background-color: #0056b3;
 }
 
 /* Media Queries para dispositivos móveis */
