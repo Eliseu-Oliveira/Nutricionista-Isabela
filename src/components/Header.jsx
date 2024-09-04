@@ -3,15 +3,18 @@ import "./Header.css";
 import logo from '../assets/bg1.png';
 import PixPaymentModal from './PixPaymentModal';
 
-
 const Header = () => {
   const [showPixModal, setShowPixModal] = useState(false);
-  
-  // Substitua pela URL da imagem do QR Code que você deseja exibir
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   const qrCodeSrc = "URL_DO_SEU_QR_CODE";
 
   const handleCloseModal = () => {
     setShowPixModal(false);
+  };
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
   };
 
   return (
@@ -20,7 +23,10 @@ const Header = () => {
         <img src={logo} alt="Logo" />
         <span className="doctor-name">Dra. Isabella Sales</span>
       </div>
-      <nav className="navbar">
+      <button className="menu-toggle" onClick={toggleMenu}>
+        ☰
+      </button>
+      <nav className={`navbar ${isMenuOpen ? 'open' : ''}`}>
         <ul>
           <li><a href="#about-section">Apresentação</a></li>
           <li><a href="#services">Especialidades</a></li>
@@ -30,11 +36,10 @@ const Header = () => {
         </ul>
       </nav>
       <div className="appointment-btn">
-        <a href="#consultation-section" className="btn-agendar">Agendar Consulta <span>&rarr;</span></a>
+        <a href="#consultation-section" className="btn-agendar">Agendar Consulta <span>→</span></a>
         <button onClick={() => setShowPixModal(true)} className="btn-pagar">Pagar Agora</button>
       </div>
 
-      {/* Modal de Pagamento via PIX */}
       {showPixModal && <PixPaymentModal onClose={handleCloseModal} qrCodeSrc={qrCodeSrc} />}
     </header>
   );
