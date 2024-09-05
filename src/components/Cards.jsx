@@ -1,5 +1,11 @@
 import React from "react";
 import "./Cards.css";
+import image1 from "../assets/image1.png";
+import image2 from "../assets/image2.png";
+import image3 from "../assets/image3.png";
+import image4 from "../assets/image4.png";
+import image5 from "../assets/image5.png";
+import image6 from "../assets/image6.png";
 
 const Cards = () => {
     return (
@@ -14,7 +20,7 @@ const Cards = () => {
                 {/* Primeira Linha de Cards */}
                 <div className="card">
                     <div className="card-image">
-                        <img src="../assets/image1.jpg" alt="Card 1" />
+                        <img src={image1} alt="Card 1" />
                     </div>
                     <div className="card-content">
                         <h3>Título do Card 1</h3>
@@ -25,7 +31,7 @@ const Cards = () => {
 
                 <div className="card">
                     <div className="card-image">
-                        <img src="../assets/image2.jpg" alt="Card 2" />
+                        <img src={image2} alt="Card 2" />
                     </div>
                     <div className="card-content">
                         <h3>Título do Card 2</h3>
@@ -36,7 +42,7 @@ const Cards = () => {
 
                 <div className="card">
                     <div className="card-image">
-                        <img src="../assets/image3.jpg" alt="Card 3" />
+                        <img src={image3} alt="Card 3" />
                     </div>
                     <div className="card-content">
                         <h3>Título do Card 3</h3>
@@ -50,7 +56,7 @@ const Cards = () => {
             <div className="cards-container">
                 <div className="card">
                     <div className="card-image">
-                        <img src="../assets/image4.jpg" alt="Card 4" />
+                        <img src={image4} alt="Card 4" />
                     </div>
                     <div className="card-content">
                         <h3>Título do Card 4</h3>
@@ -61,7 +67,7 @@ const Cards = () => {
 
                 <div className="card">
                     <div className="card-image">
-                        <img src="../assets/image5.jpg" alt="Card 5" />
+                        <img src={image5} alt="Card 5" />
                     </div>
                     <div className="card-content">
                         <h3>Título do Card 5</h3>
@@ -72,7 +78,7 @@ const Cards = () => {
 
                 <div className="card">
                     <div className="card-image">
-                        <img src="../assets/image6.jpg" alt="Card 6" />
+                        <img src={image6} alt="Card 6" />
                     </div>
                     <div className="card-content">
                         <h3>Título do Card 6</h3>
@@ -82,7 +88,6 @@ const Cards = () => {
                 </div>
             </div>
         </section>
-
     );
 };
 

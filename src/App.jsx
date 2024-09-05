@@ -10,6 +10,7 @@ import MetodoNutricional from "./components/MetodoNutricional";
 import GallerySlider from "./components/GallerySlider";
 import Depoimentos from "./components/Depoimentos";
 import WhatsAppIcon from "./components/WhatsAppIcon";
+import Chatbot from "./components/ChatBot";
 
 import Footer from "./components/Footer";
 import "./App.css";
@@ -29,6 +30,7 @@ function App() {
       <GallerySlider />
       <Depoimentos/>
       <WhatsAppIcon/>
+      <Chatbot/>
       <Footer />
     </div>
   );
