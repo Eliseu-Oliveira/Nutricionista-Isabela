@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios"; // Para fazer as requisições HTTP
-import "./Chatbot.css";
+import "./ChatBot.css";
 import robotIcon from '../assets/robot-icon.png';
 
 const Chatbot = () => {
