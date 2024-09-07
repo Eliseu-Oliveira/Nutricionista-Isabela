@@ -21,10 +21,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* background-image: url('../assets/bg-1.jpg'); Caminho para a sua imagem */
-  background-size: cover; /* Ajusta a imagem para cobrir toda a section */
-  background-position: center; /* Centraliza a imagem */
-  background-repeat: no-repeat; /* Evita a repetição da imagem */
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .cards-container {
@@ -95,4 +94,78 @@
   .card {
     margin-bottom: 20px;
   }
+}
+
+/* Modal com efeito de transição */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.modal-overlay.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  transform: scale(0.9);
+  transition: transform 0.3s ease;
+}
+
+.modal-overlay.show .modal-content {
+  transform: scale(1);
+}
+
+.modal-body img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.modal-body h3 {
+  margin-bottom: 10px;
+}
+
+.close-button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: #f44336; 
+  color: white;
+  border: none;
+  border-radius: 50%; 
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.close-button:hover {
+  background-color: #d32f2f; 
+}
+
+.close-button:focus {
+  outline: none;
 }
