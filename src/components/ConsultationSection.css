@@ -8,7 +8,7 @@
 
 .consultation-box {
     border: 2px solid #ddd; /* Borda do retângulo */
-    background-color: #f5f5f5; /* Fundo Minimalista */
+    background-color: #7CA18F; /* Fundo Minimalista */
     border-radius: 8px;
     position: relative; /* Para posicionar a imagem dentro do retângulo */
     overflow: hidden; /* Garante que a imagem não ultrapasse as bordas */
@@ -66,7 +66,7 @@
 
 .consultation-button {
     padding: 10px 20px;
-    background-color: #ff6600;
+    background-color: #7CA18F;
     color: #fff;
     border: none;
     border-radius: 8px;
@@ -83,7 +83,7 @@
 }
 
 .consultation-button:hover {
-    background-color: #e65c00;
+    background-color: #CBAB93;
 }
 
 .arrow {

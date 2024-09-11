@@ -42,7 +42,7 @@
 
 .follow-button {
   padding: 10px 20px;
-  background-color: #ff6600;
+  background-color: #7ca18f;
   color: #fff;
   border: none;
   border-radius: 8px;
@@ -52,7 +52,7 @@
 }
 
 .follow-button:hover {
-  background-color: #e65c00;
+  background-color: #CBAB93;
 }
 
 .gallery-section p {

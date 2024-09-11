@@ -6,7 +6,7 @@ const Banner = () => {
 <section id="banner" className="banner">
   <div className="banner-content">
     <p className="tagline">| Cuidando da Sua Saúde</p>
-    <h1>Nutrição Funcional e Fitoterapia</h1>
+    <h1>Nutrição e Comportamento Alimentar</h1>
     <div className="separator"></div>
     <p>
       Atendimento em Uberlândia presencial ou Online para o mundo todo

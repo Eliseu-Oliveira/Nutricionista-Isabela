@@ -1,7 +1,7 @@
 .instagram-section {
     text-align: center;
     padding: 40px 20px;
-    background-color: #f9f9f9;
+    background-color: #7ca18f;
     background-image: url('../assets/bg-1.jpg'); /* Caminho para a imagem de fundo */
     background-size: cover; /* Ajusta a imagem para cobrir toda a seção */
     background-position: center; /* Centraliza a imagem de fundo */
@@ -42,7 +42,7 @@
 
 .follow-button {
     padding: 10px 20px;
-    background-color: #ff6600;
+    background-color: #7ca18f;
     color: #fff;
     border: none;
     border-radius: 8px;
@@ -52,7 +52,7 @@
 }
 
 .follow-button:hover {
-    background-color: #e65c00;
+    background-color: #CBAB93;
 }
 
 .instagram-section p {
