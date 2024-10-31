@@ -21,7 +21,7 @@ const ConsultationSection = () => {
         <p class="consultation-content">
             O valor do seu investimento é de <span className='price'>R$ 380,00</span> para a primeira consulta 
             e as próximas (se agendadas dentro do prazo de 30-45 dias após a primeira) 
-            saem no valor de 250,00 (com um novo exame de bioimpedância).
+            saem no valor de <span className='price'>R$250,00</span> (com um novo exame de bioimpedância).
         </p>
     </div>
 
@@ -30,7 +30,7 @@ const ConsultationSection = () => {
         <p class="consultation-content">
             O valor do seu investimento é de <span className='price'>R$ 300,00</span>  para a primeira consulta 
             e as próximas (se agendadas dentro do prazo de 30-45 dias após a primeira) 
-            saem no valor de 220,00.
+            saem no valor de <span className='price'>R$220,00</span> .
         </p>
     </div>
 </div>
