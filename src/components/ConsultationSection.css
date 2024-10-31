@@ -9,7 +9,7 @@
 
 
 .consultation-box {
-    border: 2px solid #ddd; /* Borda do retângulo */
+    /* border: 2px solid #ddd; Borda do retângulo */
     border-radius: 8px;
     position: relative; /* Para posicionar a imagem dentro do retângulo */
     overflow: hidden; /* Garante que a imagem não ultrapasse as bordas */
@@ -17,7 +17,7 @@
 }
 
 .consultation-bg {
-    background-color: #18181846; /* Fundo Minimalista */
+    background-color: #413c0f33; /* Fundo Minimalista */
     padding: 30px; /* Espaçamento interno ao redor do conteúdo */
     border-radius: 8px;
     display: flex;
@@ -63,8 +63,8 @@
 .consultation-box {
     flex: 1; /* Faz as colunas terem o mesmo tamanho */
     padding: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.4);
-    background-color: rgba(0, 0, 0, 0.4);
+    /* border: 1px solid rgba(0, 0, 0, 0.4); */
+    background-color: rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     color: #ffffff;
     text-align: center;
