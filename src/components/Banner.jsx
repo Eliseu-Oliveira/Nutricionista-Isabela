@@ -5,17 +5,18 @@ const Banner = () => {
   return (
 <section id="banner" className="banner">
   <div className="banner-content">
-    <p className="tagline">| Cuidando da Sua Saúde</p>
-    <h1>Nutrição e Comportamento Alimentar</h1>
+    <p className="tagline">| Nutrindo hábitos</p>
+    <h1>Nutrição Clínica Comportamental </h1>
     <div className="separator"></div>
     <p>
-      Atendimento em Uberlândia presencial ou Online para o mundo todo
+      Atendimento em Uberlândia presencial ou online para o mundo todo!
       <br /><br />
-      Meu objetivo é te ajudar a emagrecer, ter vitalidade e mais energia. Tratar o organismo como um todo e recuperar sua saúde. Sou proprietária da clínica Be Natural, um espaço de estética natural e saúde, com isso desenvolvi uma metodologia própria para ajudar você a recuperar a autoestima e o autocuidado.
+      Se você quer uma mudança real para a sua vida, não apenas resultados estéticos, mas também uma relação saudável com a comida e uma melhora no seu desempenho físico, venha conhecer meu trabalho!
       <br /><br />
-      Também vou cuidar da sua rotina e do seu planejamento e te ajudar a tornar a mudança de estilo de vida ainda mais leve e efetiva.
+      Vamos promover uma rotina e fazer o seu planejamento para te ajudar a tornar a mudança de estilo de vida ainda mais leve e efetiva.
     </p>
-    <p>* Não atendemos convênios</p>
+    <p>* Não atendemos convênios, apenas consultas particulares para entregar o melhor para você.</p>
+
   </div>
   
 </section>

@@ -1,24 +1,30 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import "./InstagramSection.css";
-import image1 from "../assets/bg1.png";
-import image2 from "../assets/bg2.png";
-import image3 from "../assets/bg3.png";
-import image4 from "../assets/bg4.png";
-import image5 from "../assets/bg5.png";
-import image6 from "../assets/bgg1.jpg";
-import image7 from "../assets/bgg2.jpg";
-import image8 from "../assets/bgg3.jpg";
+import image1 from "../assets/bg1.png"; // Imagem de backup caso a API falhe
 
 const InstagramSection = () => {
     const scrollContainer = useRef(null);
+    const [posts, setPosts] = useState([]);
 
-    // Imagens para o carrossel
-    const images = [image1, image2, image3, image4, image5, image6, image7, image8];
+    // Token de acesso e ID da conta do Instagram
+    const accessToken = 'YOUR_ACCESS_TOKEN'; // Insira seu token de acesso aqui
+    const userId = 'YOUR_USER_ID'; // Insira seu ID de usuário aqui
 
-    // Clona as imagens
-    const cloneImages = [...images, ...images];
+    useEffect(() => {
+        const fetchInstagramPosts = async () => {
+            try {
+                const response = await fetch(`https://graph.instagram.com/${userId}/media?fields=id,caption,media_url&access_token=${accessToken}`);
+                const data = await response.json();
+                setPosts(data.data); // Define as postagens no estado
+            } catch (error) {
+                console.error("Erro ao buscar postagens do Instagram:", error);
+            }
+        };
 
-    // Manipula o scroll para criar o efeito infinito
+        fetchInstagramPosts();
+    }, []);
+
+    // Manipulação do scroll (a mesma lógica que você já tem)
     const handleScroll = () => {
         const { scrollLeft, clientWidth } = scrollContainer.current;
         const maxScrollLeft = scrollContainer.current.scrollWidth / 2;
@@ -69,9 +75,18 @@ const InstagramSection = () => {
                 onMouseUp={handleMouseUp}
                 onMouseMove={handleMouseMove}
             >
-                {cloneImages.map((img, index) => (
-                    <img src={img} alt={`Post ${index + 1}`} className="instagram-image" key={index} />
-                ))}
+                {posts.length > 0 ? (
+                    posts.map((post) => (
+                        <img
+                            src={post.media_url || image1} // Imagem de backup
+                            alt={post.caption}
+                            className="instagram-image"
+                            key={post.id}
+                        />
+                    ))
+                ) : (
+                    <img src={image1} alt="Loading..." className="instagram-image" />
+                )}
             </div>
             <p>Acesse minha página e acompanhe todos os meus conteúdos</p>
             <a href="https://www.instagram.com/drabellasalesnutri/" target="_blank" rel="noopener noreferrer">

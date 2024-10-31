@@ -11,22 +11,41 @@ const ConsultationSection = () => {
     };
 
     return (
-        <section id="consultation-section" className="consultation-section">
-            <div className="consultation-box">
-                <img src={consultationImage} alt="Consulta Nutricional" className="consultation-image" />
-                <div className="consultation-bg">
-                    <h3 className="consultation-title">
-                        Consulta Nutricional - 2 Meses - <span className="price">R$ 650,00</span>
-                    </h3>
-                    <p className="consultation-description">
-                        Consulta + Bioimpedância + retorno e acompanhamento online de 60 dias por WhatsApp.
-                    </p>
-                </div>
-                <button className="consultation-button" onClick={handleButtonClick}>
-                    Quero o Acompanhamento de 2 Meses <span className="arrow">→</span>
-                </button>
-            </div>
-        </section>
+<section id="consultation-section" className="consultation-section">
+    <div className="consultation-box">
+        <img src={consultationImage} alt="Consulta Nutricional" className="consultation-image" />
+        <div className="consultation-bg">
+        <div class="consultation-wrapper">
+    <div class="consultation-box">
+        <h3 class="title-consultation">CONSULTA PRESENCIAL:</h3>
+        <p class="consultation-content">
+            O valor do seu investimento é de <span className='price'>R$ 380,00</span> para a primeira consulta 
+            e as próximas (se agendadas dentro do prazo de 30-45 dias após a primeira) 
+            saem no valor de 250,00 (com um novo exame de bioimpedância).
+        </p>
+    </div>
+
+    <div class="consultation-box">
+        <h3 class="title-consultation">CONSULTA ONLINE:</h3>
+        <p class="consultation-content">
+            O valor do seu investimento é de <span className='price'>R$ 300,00</span>  para a primeira consulta 
+            e as próximas (se agendadas dentro do prazo de 30-45 dias após a primeira) 
+            saem no valor de 220,00.
+        </p>
+    </div>
+</div>
+
+            <p className="consultation-description">
+                Se desejar fazer somente a avaliação física (com ou sem a bioimpedância): investimento de 100,00
+            </p>
+
+        </div>
+        <button className="consultation-button" onClick={handleButtonClick}>
+            Quero o Acompanhamento de 2 Meses <span className="arrow">→</span>
+        </button>
+    </div>
+</section>
+
     );
 };
 

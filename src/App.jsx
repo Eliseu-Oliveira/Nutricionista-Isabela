@@ -22,15 +22,15 @@ function App() {
       <Banner />
       <Features />
       <Apresentacao />
-      <InstagramSection />
+      {/* <InstagramSection /> */}
       <ConsultationSection />
       <treatmentCategory />
       <Cards />
       <MetodoNutricional/>
-      <GallerySlider />
+      {/* <GallerySlider /> */}
       <Depoimentos/>
       <WhatsAppIcon/>
-      <Chatbot/>
+      {/* <Chatbot/> */}
       <Footer />
     </div>
   );

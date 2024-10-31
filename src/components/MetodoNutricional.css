@@ -32,6 +32,9 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%; /* Garante que os itens ocupem a largura total do grid */
+  max-width: 300px; /* Limita o tamanho máximo dos itens para mantê-los pequenos */
+  margin: 0 auto; /* Centraliza os itens em dispositivos móveis */
 }
 
 .metodo-item:hover {
@@ -66,11 +69,12 @@
 
 @media (max-width: 768px) {
   .metodo-grid {
-      grid-template-columns: 1fr; /* Muda para 1 coluna no mobile */
+    grid-template-columns: 1fr; /* Muda para 1 coluna no mobile */
   }
 
   .metodo-item {
-      width: 100%;
-      max-width: 400px; /* Aumenta o tamanho dos itens no mobile */
+    width: 100%;
+    max-width: 100%; /* Garante que os itens ocupem a largura total no mobile */
+    margin: 0 auto; /* Centraliza os itens no mobile */
   }
 }

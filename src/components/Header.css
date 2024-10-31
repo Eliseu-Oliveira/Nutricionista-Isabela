@@ -82,7 +82,10 @@
   display: flex;
   align-items: center;
   transition: background-color 0.3s ease;
+  border: 2px solid #7CA18F; /* Adicionando borda */
 }
+
+
 
 .btn-agendar span {
   margin-left: 8px;
@@ -90,6 +93,7 @@
 
 .btn-agendar:hover {
   background-color: #CBAB93;
+  border: 2px solid #CBAB93; /* Altera a cor da borda ao passar o mouse */
 }
 
 .btn-pagar {
@@ -98,14 +102,18 @@
   padding: 10px 20px;
   border-radius: 5px;
   text-decoration: none;
-  margin-left: 10px;
+  margin-left: 10px; /* Isso já move ele um pouco para a direita */
+  margin-right: 20px; /* Adicionando mais espaço à direita */
   cursor: pointer;
   transition: background-color 0.3s;
+  border: 2px solid #7CA18F; /* Adicionando borda */
 }
 
 .btn-pagar:hover {
   background-color: #CBAB93;
+  border: 2px solid #CBAB93; /* Altera a cor da borda ao passar o mouse */
 }
+
 
 /* Adicionando padding-top ao corpo do conteúdo principal */
 body {
