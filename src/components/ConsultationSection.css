@@ -1,15 +1,14 @@
 .consultation-section {
-    background-color: #38373736; /* Fundo Branco */
-    padding: 40px 20px; /* Espaçamento interno */
+    background-color: rgba(56, 55, 55, 0.1);
+    padding: 40px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 
-
 .consultation-box {
-    /* border: 2px solid #ddd; Borda do retângulo */
     border-radius: 8px;
     position: relative; /* Para posicionar a imagem dentro do retângulo */
     overflow: hidden; /* Garante que a imagem não ultrapasse as bordas */
@@ -17,25 +16,29 @@
 }
 
 .consultation-bg {
-    background-color: #413c0f33; /* Fundo Minimalista */
-    padding: 30px; /* Espaçamento interno ao redor do conteúdo */
+   
+    padding: 40px; /* Espaçamento interno ao redor do conteúdo */
     border-radius: 8px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     position: relative;
+    max-width: 800px; /* Define uma largura máxima para centralizar */
+    width: 100%;
 }
 
 
 
 .consultation-image {
-    width: 100%; /* Largura da imagem para preencher o retângulo */
-    height: 100%; /* Altura da imagem para preencher parte do retângulo (ajustável) */
-    object-fit: cover; /* Faz com que a imagem preencha a área sem distorcer */
-    position: absolute; /* Para sobrepor o conteúdo dentro do retângulo */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
     top: 0;
     left: 0;
+    z-index: -1; /* Envia a imagem para o fundo */
+    filter: brightness(0.5); /* Escurece a imagem para melhor legibilidade */
 }
 
 
@@ -47,7 +50,7 @@
 .consultation-description {
     color: #ffffff; /* Cor do texto */
     padding: 10px 20px; /* Espaçamento interno */
-    font-size: 2.0rem; /* Tamanho da fonte */
+    font-size: 1.5rem; /* Tamanho da fonte */
     margin-bottom: 20px; /* Espaçamento inferior */
     text-align: center; /* Centralizar o texto */
 }
@@ -56,19 +59,18 @@
 .consultation-wrapper {
     display: flex;
     justify-content: space-between;
-    align-items: stretch; /* Faz as colunas esticarem para ter a mesma altura */
-    gap: 20px; /* Espaço entre as colunas */
+    gap: 20px;
 }
 
 .consultation-box {
-    flex: 1; /* Faz as colunas terem o mesmo tamanho */
     padding: 20px;
-    /* border: 1px solid rgba(0, 0, 0, 0.4); */
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     color: #ffffff;
     text-align: center;
 }
+
+
 
 .title-consultation {
     font-size: 1.4rem;
@@ -98,6 +100,17 @@
     bottom: 30px; /* Ajusta a posição em relação ao fundo do retângulo */
     left: 50%;
     transform: translateX(-50%);
+}
+
+.consultation-button {
+    padding: 10px 20px;
+    background-color: #7CA18F;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+    margin-top: 20px;
 }
 
 .consultation-button:hover {

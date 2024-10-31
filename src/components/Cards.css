@@ -53,6 +53,8 @@
 
 .card-image img {
   width: 100%;
+  height: 180px; /* Altura fixa para padronização */
+  object-fit: cover; /* Ajusta a imagem para preencher o espaço sem distorção */
   border-bottom: 4px solid #cbab93;
 }
 
