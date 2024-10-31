@@ -123,40 +123,50 @@
 
 @media (max-width: 768px) {
     .consultation-section {
-        padding: 15px 8px; /* Reduz ainda mais o espaçamento interno */
+        padding: 15px 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .consultation-bg {
+        max-width: 90%; /* Reduz a largura para caber melhor na tela menor */
+        padding: 20px;
     }
 
     .consultation-wrapper {
         flex-direction: column;
-        gap: 8px; /* Espaço menor entre os blocos */
+        gap: 15px; /* Mais espaço entre os blocos para melhor visibilidade */
     }
 
     .consultation-box {
-        padding: 12px;
+        padding: 15px;
+        text-align: center;
     }
 
     .consultation-image {
-        height: 100%; /* Reduz ainda mais a altura da imagem */
-    }
-
-    .consultation-description {
-        font-size: 1rem; /* Fonte menor para o texto descritivo */
-        padding: 5px 8px;
+        height: 100%; /* Ajusta a altura para se adequar ao conteúdo */
+        filter: brightness(0.5); /* Mantém o filtro de brilho para legibilidade */
     }
 
     .title-consultation {
-        font-size: 1.2rem; /* Tamanho menor para o título */
+        font-size: 1.2rem;
         margin-bottom: 10px;
     }
 
+    .consultation-description {
+        font-size: 1rem;
+        padding: 5px;
+    }
+
     .price {
-        font-size: 1.1rem; /* Tamanho menor para o preço */
+        font-size: 1.1rem;
     }
 
     .consultation-button {
-        padding: 6px 14px;
-        font-size: 0.8rem; /* Diminui ainda mais o botão para melhor adaptação */
-        bottom: 8px; /* Ajusta a posição do botão */
+        position: relative; /* Remove a posição absoluta */
+        margin-top: 2px; /* Adiciona espaçamento acima do botão */
+        padding: 8px 10px;
+        font-size: 0.9rem;
     }
 }
-
