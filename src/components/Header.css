@@ -147,12 +147,18 @@ body {
     margin-bottom: 10px;
   }
 
+  .appointment-btn {
+    margin-right: 20px; /* Aumenta o espaçamento no contêiner para dispositivos móveis */
+  }
+
   .btn-agendar {
-    padding: 8px 20px;
+    padding: 8px 15px;
+    margin-right: 8px; /* Adiciona espaço entre os botões */
   }
 
   .btn-pagar {
-    padding: 8px 15px;
+    padding: 8px 12px;
+    margin-right: 10px; /* Espaço extra no lado direito do botão */
   }
 
   .doctor-name {
@@ -173,12 +179,18 @@ body {
     margin-bottom: 10px;
   }
 
+  .appointment-btn {
+    margin-right: 25px; /* Mais espaçamento à direita para dispositivos muito pequenos */
+  }
+
   .btn-agendar {
-    padding: 8px 15px;
+    padding: 8px 12px;
+    margin-right: 6px;
   }
 
   .btn-pagar {
     padding: 8px 10px;
+    margin-right: 8px;
   }
 
   .doctor-name {
