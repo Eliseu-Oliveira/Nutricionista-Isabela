@@ -110,39 +110,40 @@
 
 @media (max-width: 768px) {
     .consultation-section {
-        padding: 20px 10px; /* Reduz o espaçamento interno */
+        padding: 15px 8px; /* Reduz ainda mais o espaçamento interno */
     }
 
     .consultation-wrapper {
-        flex-direction: column; /* Empilha as colunas no mobile */
-        gap: 10px; /* Reduz o espaço entre os blocos */
+        flex-direction: column;
+        gap: 8px; /* Espaço menor entre os blocos */
     }
 
     .consultation-box {
-        padding: 15px;
+        padding: 12px;
     }
 
     .consultation-image {
-        height: 150px; /* Ajusta a altura da imagem para telas menores */
+        height: 120px; /* Reduz ainda mais a altura da imagem */
     }
 
     .consultation-description {
-        font-size: 1.2rem; /* Reduz o tamanho da fonte para melhor visualização */
-        padding: 5px 10px;
+        font-size: 1rem; /* Fonte menor para o texto descritivo */
+        padding: 5px 8px;
     }
 
     .title-consultation {
-        font-size: 1.5rem;
-        margin-bottom: 15px;
-    }
-
-    .consultation-button {
-        padding: 8px 16px;
-        font-size: 0.9rem; /* Diminui o botão para se adaptar melhor */
-        bottom: 10px; /* Ajusta a posição do botão */
+        font-size: 1.2rem; /* Tamanho menor para o título */
+        margin-bottom: 10px;
     }
 
     .price {
-        font-size: 1.3rem; /* Ajusta o tamanho do preço */
+        font-size: 1.1rem; /* Tamanho menor para o preço */
+    }
+
+    .consultation-button {
+        padding: 6px 14px;
+        font-size: 0.8rem; /* Diminui ainda mais o botão para melhor adaptação */
+        bottom: 8px; /* Ajusta a posição do botão */
     }
 }
+
