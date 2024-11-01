@@ -5,7 +5,6 @@ import Features from "./components/Features";
 import ConsultationSection from "./components/ConsultationSection";
 import Cards from "./components/Cards";
 import MetodoNutricional from "./components/MetodoNutricional";
-import Depoimentos from "./components/Depoimentos";
 import WhatsAppIcon from "./components/WhatsAppIcon";
 import Footer from "./components/Footer";
 import "./App.css";
@@ -21,7 +20,6 @@ function App() {
       <treatmentCategory />
       <Cards />
       <MetodoNutricional />
-      <Depoimentos />
       <WhatsAppIcon />
       <Footer />
     </div>

@@ -31,7 +31,6 @@ const Header = () => {
           <li><a href="#about-section">Apresentação</a></li>
           <li><a href="#services">Especialidades</a></li>
           <li><a href="#metodo">Meu Método</a></li>
-          <li><a href="#depoimentos">Depoimentos</a></li>
         </ul>
       </nav>
       <div className="appointment-btn">
