@@ -3,7 +3,7 @@ import "./Cards.css";
 
 // importe suas imagens 
 import image1 from "../assets/image1.png";
-import image2 from "../assets/image2.png";
+import image2 from "../assets/image2.jpg";
 import image3 from "../assets/image3.png";
 import image4 from "../assets/image4.png";
 import image5 from "../assets/image5.png";
@@ -50,75 +50,6 @@ const Cards = () => {
         { id: 5, title: "Comportamento alimentar e saúde mental", description: "A conexão entre alimentação e equilíbrio emocional.", image: image5, descriptioncomplete: "A relação entre alimentação e saúde mental é complexa e fundamental para o bem-estar geral. O que comemos pode afetar não apenas nossa saúde física, mas também nosso estado emocional e psicológico. Compreender essa conexão é vital para promover um estilo de vida saudável e equilibrado." },
         { id: 6, title: "Saúde da Mulher", description: "Como cuidar do corpo em cada fase da vida.", image: image6, descriptioncomplete: "A saúde da mulher é um aspecto crucial do bem-estar geral, e cuidar do corpo em cada fase da vida é fundamental para promover a saúde física e emocional. Desde a adolescência até a menopausa, cada fase traz mudanças que requerem atenção e cuidados específicos." }
     ];
-
-    //         {/* Primeira Linha de Cards */}
-    //         <div className="card">
-    //         <div className="card-image">
-    //             <img src="../assets/image1.jpg" alt="Card 1" />
-    //         </div>
-    //         <div className="card-content">
-    //             <h3>Reeducação alimentar na prática</h3>
-    //             <p>Alimentação adequada para a sua rotina.</p>
-    //             <button>Saiba Mais</button>
-    //         </div>
-    //     </div>
-
-    //     <div className="card">
-    //         <div className="card-image">
-    //             <img src="../assets/image2.jpg" alt="Card 2" />
-    //         </div>
-    //         <div className="card-content">
-    //             <h3>Intestino preso?</h3>
-    //             <p>Liberte-se do desconforto, inchaço e gases.</p>
-    //             <button>Saiba Mais</button>
-    //         </div>
-    //     </div>
-
-    //     <div className="card">
-    //         <div className="card-image">
-    //             <img src="../assets/image3.jpg" alt="Card 3" />
-    //         </div>
-    //         <div className="card-content">
-    //             <h3>Emagrecimento saudável</h3>
-    //             <p>Perdendo gordura com equilibrio e sem sofrimento.</p>
-    //             <button>Saiba Mais</button>
-    //         </div>
-    //     </div>
-    // </div>
-
-    // {/* Segunda Linha de Cards */}
-    // <div className="cards-container">
-    //     <div className="card">
-    //         <div className="card-image">
-    //             <img src="../assets/image4.jpg" alt="Card 4" />
-    //         </div>
-    //         <div className="card-content">
-    //             <h3>Ganho de massa muscular</h3>
-    //             <p>Melhora de força, definição e performance.:</p>
-    //             <button>Saiba Mais</button>
-    //         </div>
-    //     </div>
-
-    //     <div className="card">
-    //         <div className="card-image">
-    //             <img src="../assets/image5.jpg" alt="Card 5" />
-    //         </div>
-    //         <div className="card-content">
-    //             <h3>Comportamento alimentar e saúde mental</h3>
-    //             <p>A conexão entre alimentação e equilíbrio emocional.</p>
-    //             <button>Saiba Mais</button>
-    //         </div>
-    //     </div>
-
-    //     <div className="card">
-    //         <div className="card-image">
-    //             <img src="../assets/image6.jpg" alt="Card 6" />
-    //         </div>
-    //         <div className="card-content">
-    //             <h3>Saúde da Mulher</h3>
-    //             <p>Como cuidar do corpo em cada fase da vida.</p>
-
-
     return (
         <section id="cards-section" className="cards-section">
             {/* Texto de Especialidades */}

@@ -53,7 +53,6 @@
 
 .card-image {
   width: 100%;
-  height: 180px; /* Altura fixa para o contêiner da imagem */
   overflow: hidden; /* Oculta qualquer parte da imagem que não cabe no contêiner */
 }
 
