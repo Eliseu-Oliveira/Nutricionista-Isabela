@@ -4,7 +4,7 @@
   height: 80vh; /* Ajuste isso conforme necessário */
   background-image: url('../assets/bggg6.jpg');  /* Importe sua imagem */
   background-size: cover; /* A imagem cobrirá todo o banner */
-  background-position: 120px 20%; /* Ajuste a posição da imagem para movê-la mais para a direita */
+  background-position: 120px 10%; /* Ajuste a posição da imagem para movê-la mais para a direita */
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
