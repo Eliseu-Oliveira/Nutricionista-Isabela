@@ -45,78 +45,78 @@ const Cards = () => {
     const cardsData = [
         { id: 1, title: "Reeducação alimentar na prática", description: "Alimentação adequada para a sua rotina.", image: image1, descriptioncomplete: "Adote uma alimentação equilibrada e personalizada para a sua rotina com a Reeducação Alimentar na Prática.Este programa é desenvolvido para ajudá-lo a transformar seus hábitos alimentares de forma simples e eficaz, respeitando suas necessidades e preferências. Você aprenderá como escolher os alimentos certos, planejar suas refeições e fazer substituições saudáveis, sem abrir mão do prazer de comer bem. Ideal para quem busca melhorar a saúde, aumentar a energia e alcançar um estilo de vida mais saudável de maneira sustentável." },
         { id: 2, title: "Intestino preso?", description: "Liberte-se do desconforto, inchaço e gases.", image: image2, descriptioncomplete: "Se você está lidando com intestino preso, saiba que não está sozinho. Essa condição, também conhecida como constipação, afeta muitas pessoas e pode ser causada por diversos fatores, incluindo dieta inadequada, falta de exercícios e estresse. O intestino preso pode resultar em sintomas desconfortáveis, como inchaço, gases e dor abdominal." },
-        { id: 3, title: "Emagrecimento saudável", description: "Perdendo gordura com equilibrio e sem sofrimento.", image: image3, descriptioncomplete:"Emagrecer de forma saudável vai além de apenas reduzir números na balança; trata-se de promover mudanças duradouras no estilo de vida. O foco deve ser na perda de gordura, e não apenas na perda de peso, garantindo que o corpo receba os nutrientes necessários enquanto se torna mais forte e saudável." },
-        { id: 4, title: "Ganho de massa muscular", description: "Melhora de força, definição e performance.", image: image4, descriptioncomplete:"O ganho de massa muscular é um objetivo comum para muitas pessoas, seja para melhorar a força, a definição ou a performance atlética. Com uma abordagem correta, é possível aumentar a massa muscular de forma saudável e eficaz." },
-        { id: 5, title: "Comportamento alimentar e saúde mental", description: "A conexão entre alimentação e equilíbrio emocional.", image: image5, descriptioncomplete:"A relação entre alimentação e saúde mental é complexa e fundamental para o bem-estar geral. O que comemos pode afetar não apenas nossa saúde física, mas também nosso estado emocional e psicológico. Compreender essa conexão é vital para promover um estilo de vida saudável e equilibrado." },
-        { id: 6, title: "Saúde da Mulher", description: "Como cuidar do corpo em cada fase da vida.", image: image6, descriptioncomplete:"A saúde da mulher é um aspecto crucial do bem-estar geral, e cuidar do corpo em cada fase da vida é fundamental para promover a saúde física e emocional. Desde a adolescência até a menopausa, cada fase traz mudanças que requerem atenção e cuidados específicos." }
+        { id: 3, title: "Emagrecimento saudável", description: "Perdendo gordura com equilibrio e sem sofrimento.", image: image3, descriptioncomplete: "Emagrecer de forma saudável vai além de apenas reduzir números na balança; trata-se de promover mudanças duradouras no estilo de vida. O foco deve ser na perda de gordura, e não apenas na perda de peso, garantindo que o corpo receba os nutrientes necessários enquanto se torna mais forte e saudável." },
+        { id: 4, title: "Ganho de massa muscular", description: "Melhora de força, definição e performance.", image: image4, descriptioncomplete: "O ganho de massa muscular é um objetivo comum para muitas pessoas, seja para melhorar a força, a definição ou a performance atlética. Com uma abordagem correta, é possível aumentar a massa muscular de forma saudável e eficaz." },
+        { id: 5, title: "Comportamento alimentar e saúde mental", description: "A conexão entre alimentação e equilíbrio emocional.", image: image5, descriptioncomplete: "A relação entre alimentação e saúde mental é complexa e fundamental para o bem-estar geral. O que comemos pode afetar não apenas nossa saúde física, mas também nosso estado emocional e psicológico. Compreender essa conexão é vital para promover um estilo de vida saudável e equilibrado." },
+        { id: 6, title: "Saúde da Mulher", description: "Como cuidar do corpo em cada fase da vida.", image: image6, descriptioncomplete: "A saúde da mulher é um aspecto crucial do bem-estar geral, e cuidar do corpo em cada fase da vida é fundamental para promover a saúde física e emocional. Desde a adolescência até a menopausa, cada fase traz mudanças que requerem atenção e cuidados específicos." }
     ];
 
-            //         {/* Primeira Linha de Cards */}
-            //         <div className="card">
-            //         <div className="card-image">
-            //             <img src="../assets/image1.jpg" alt="Card 1" />
-            //         </div>
-            //         <div className="card-content">
-            //             <h3>Reeducação alimentar na prática</h3>
-            //             <p>Alimentação adequada para a sua rotina.</p>
-            //             <button>Saiba Mais</button>
-            //         </div>
-            //     </div>
+    //         {/* Primeira Linha de Cards */}
+    //         <div className="card">
+    //         <div className="card-image">
+    //             <img src="../assets/image1.jpg" alt="Card 1" />
+    //         </div>
+    //         <div className="card-content">
+    //             <h3>Reeducação alimentar na prática</h3>
+    //             <p>Alimentação adequada para a sua rotina.</p>
+    //             <button>Saiba Mais</button>
+    //         </div>
+    //     </div>
 
-            //     <div className="card">
-            //         <div className="card-image">
-            //             <img src="../assets/image2.jpg" alt="Card 2" />
-            //         </div>
-            //         <div className="card-content">
-            //             <h3>Intestino preso?</h3>
-            //             <p>Liberte-se do desconforto, inchaço e gases.</p>
-            //             <button>Saiba Mais</button>
-            //         </div>
-            //     </div>
+    //     <div className="card">
+    //         <div className="card-image">
+    //             <img src="../assets/image2.jpg" alt="Card 2" />
+    //         </div>
+    //         <div className="card-content">
+    //             <h3>Intestino preso?</h3>
+    //             <p>Liberte-se do desconforto, inchaço e gases.</p>
+    //             <button>Saiba Mais</button>
+    //         </div>
+    //     </div>
 
-            //     <div className="card">
-            //         <div className="card-image">
-            //             <img src="../assets/image3.jpg" alt="Card 3" />
-            //         </div>
-            //         <div className="card-content">
-            //             <h3>Emagrecimento saudável</h3>
-            //             <p>Perdendo gordura com equilibrio e sem sofrimento.</p>
-            //             <button>Saiba Mais</button>
-            //         </div>
-            //     </div>
-            // </div>
+    //     <div className="card">
+    //         <div className="card-image">
+    //             <img src="../assets/image3.jpg" alt="Card 3" />
+    //         </div>
+    //         <div className="card-content">
+    //             <h3>Emagrecimento saudável</h3>
+    //             <p>Perdendo gordura com equilibrio e sem sofrimento.</p>
+    //             <button>Saiba Mais</button>
+    //         </div>
+    //     </div>
+    // </div>
 
-            // {/* Segunda Linha de Cards */}
-            // <div className="cards-container">
-            //     <div className="card">
-            //         <div className="card-image">
-            //             <img src="../assets/image4.jpg" alt="Card 4" />
-            //         </div>
-            //         <div className="card-content">
-            //             <h3>Ganho de massa muscular</h3>
-            //             <p>Melhora de força, definição e performance.:</p>
-            //             <button>Saiba Mais</button>
-            //         </div>
-            //     </div>
+    // {/* Segunda Linha de Cards */}
+    // <div className="cards-container">
+    //     <div className="card">
+    //         <div className="card-image">
+    //             <img src="../assets/image4.jpg" alt="Card 4" />
+    //         </div>
+    //         <div className="card-content">
+    //             <h3>Ganho de massa muscular</h3>
+    //             <p>Melhora de força, definição e performance.:</p>
+    //             <button>Saiba Mais</button>
+    //         </div>
+    //     </div>
 
-            //     <div className="card">
-            //         <div className="card-image">
-            //             <img src="../assets/image5.jpg" alt="Card 5" />
-            //         </div>
-            //         <div className="card-content">
-            //             <h3>Comportamento alimentar e saúde mental</h3>
-            //             <p>A conexão entre alimentação e equilíbrio emocional.</p>
-            //             <button>Saiba Mais</button>
-            //         </div>
-            //     </div>
+    //     <div className="card">
+    //         <div className="card-image">
+    //             <img src="../assets/image5.jpg" alt="Card 5" />
+    //         </div>
+    //         <div className="card-content">
+    //             <h3>Comportamento alimentar e saúde mental</h3>
+    //             <p>A conexão entre alimentação e equilíbrio emocional.</p>
+    //             <button>Saiba Mais</button>
+    //         </div>
+    //     </div>
 
-            //     <div className="card">
-            //         <div className="card-image">
-            //             <img src="../assets/image6.jpg" alt="Card 6" />
-            //         </div>
-            //         <div className="card-content">
-            //             <h3>Saúde da Mulher</h3>
-            //             <p>Como cuidar do corpo em cada fase da vida.</p>
+    //     <div className="card">
+    //         <div className="card-image">
+    //             <img src="../assets/image6.jpg" alt="Card 6" />
+    //         </div>
+    //         <div className="card-content">
+    //             <h3>Saúde da Mulher</h3>
+    //             <p>Como cuidar do corpo em cada fase da vida.</p>
 
 
     return (
@@ -130,7 +130,7 @@ const Cards = () => {
             {/* Primeira Linha de Cards */}
             <div className="cards-container">
                 {cardsData.slice(0, 3).map((card) => (
-                    <div className="card" key={card.id}>
+                    <div className="card">
                         <div className="card-image">
                             <img src={card.image} alt={card.title} />
                         </div>

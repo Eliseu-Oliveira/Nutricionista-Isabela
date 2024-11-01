@@ -51,12 +51,19 @@
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }
 
-.card-image img {
+.card-image {
   width: 100%;
-  height: 180px; /* Altura fixa para padronização */
-  object-fit: cover; /* Ajusta a imagem para preencher o espaço sem distorção */
-  border-bottom: 4px solid #cbab93;
+  height: 180px; /* Altura fixa para o contêiner da imagem */
+  overflow: hidden; /* Oculta qualquer parte da imagem que não cabe no contêiner */
 }
+
+.card-image img {
+  width: 100%; /* A largura da imagem deve ocupar 100% do contêiner */
+  height: 100%; /* A altura da imagem deve ser 100% do contêiner */
+  object-fit: cover; /* Preenche o contêiner sem distorcer a imagem */
+  border-bottom: 4px solid #cbab93; /* Borda na parte inferior */
+}
+
 
 .card-content {
   padding: 20px;
