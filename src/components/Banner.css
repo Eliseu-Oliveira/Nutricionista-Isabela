@@ -1,10 +1,15 @@
 .banner {
   position: relative;
-  width: 100vw; /* Garanta que ocupe 100% da largura da janela */
-  height: 80vh; /* Ajuste isso conforme necessário */
-  background-image: url('../assets/bggg6.jpg');  /* Importe sua imagem */
-  background-size: cover; /* A imagem cobrirá todo o banner */
-  background-position: 120px 1%; /* Ajuste a posição da imagem para movê-la mais para a direita */
+  width: 100vw;
+  /* Garanta que ocupe 100% da largura da janela */
+  height: 80vh;
+  /* Ajuste isso conforme necessário */
+  background-image: url('../assets/bggg6.jpg');
+  /* Importe sua imagem */
+  background-size: cover;
+  /* A imagem cobrirá todo o banner */
+  background-position: 120px 1%;
+  /* Ajuste a posição da imagem para movê-la mais para a direita */
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
@@ -12,7 +17,8 @@
   color: #fff;
   overflow: hidden;
   font-family: Poppins, sans-serif;
-  z-index: 0; /* Fica atrás do conteúdo */
+  z-index: 0;
+  /* Fica atrás do conteúdo */
 }
 
 .banner::before {
@@ -28,8 +34,10 @@
 
 .banner-content {
   position: relative;
-  max-width: 800px; /* Limita a largura do conteúdo em telas grandes */
-  width: 90%; /* Permite que o conteúdo use a maior parte da tela em dispositivos menores */
+  max-width: 800px;
+  /* Limita a largura do conteúdo em telas grandes */
+  width: 90%;
+  /* Permite que o conteúdo use a maior parte da tela em dispositivos menores */
   padding: 20px;
   background: transparent;
   color: #fff;
@@ -66,88 +74,160 @@
 }
 
 /* Media Queries */
-@media (max-width: 1366px) { /* Notebooks */
+@media (max-width: 1366px) {
+
+  /* Notebooks */
   .banner {
-    height: 70vh; /* Ajuste a altura do banner para telas de notebooks */
-    background-position: center; /* Centraliza a imagem */
+    height: 70vh;
+    /* Ajuste a altura do banner para telas de notebooks */
+    background-position: center;
+    /* Centraliza a imagem */
   }
 }
 
-@media (max-width: 768px) { /* Tablets e telas menores */
+@media (min-width: 1024px) and (max-width: 1366px) {
+
+  /* Laptops e notebooks */
   .banner {
-    height: 70vh; /* Ajuste a altura do banner para telas médias */
-    background-position: center; /* Centraliza a imagem */
+    height: 75vh;
+    /* Ajuste a altura conforme necessário */
+    background-position: center;
+    /* Centraliza a imagem para evitar desalinhamento */
+  }
+
+  .banner-content {
+    max-width: 90%;
+    /* Reduz um pouco a largura para não ficar muito esticado */
+    margin-left: 0;
+    /* Centraliza o conteúdo em laptops */
+    padding: 20px;
+    /* Mantém o padding confortável */
+    text-align: center;
+    /* Centraliza o texto para facilitar a leitura */
+  }
+
+  .separator {
+    width: 80%;
+    /* Reduz o tamanho do separador para evitar sobreposição com a imagem */
+    margin: 10px auto;
+    /* Centraliza o separador */
+  }
+
+  .banner h1 {
+    font-size: 2.4rem;
+    /* Ajusta o título para laptops */
+  }
+
+  .banner p {
+    font-size: 1.1rem;
+    /* Ajusta o parágrafo para uma leitura confortável */
+  }
+}
+
+@media (max-width: 768px) {
+
+  /* Tablets e telas menores */
+  .banner {
+    height: 70vh;
+    /* Ajuste a altura do banner para telas médias */
+    background-position: center;
+    /* Centraliza a imagem */
   }
 
   .banner-content {
     margin-left: 0;
-    text-align: center; /* Centraliza o conteúdo em telas menores */
+    text-align: center;
+    /* Centraliza o conteúdo em telas menores */
     padding: 15px;
   }
 
   .banner h1 {
-    font-size: 2rem; /* Reduz o tamanho do título */
+    font-size: 2rem;
+    /* Reduz o tamanho do título */
   }
 
   .banner p {
-    font-size: 1rem; /* Reduz o tamanho do parágrafo */
-    line-height: 1.3; /* Ajusta a altura da linha */
+    font-size: 1rem;
+    /* Reduz o tamanho do parágrafo */
+    line-height: 1.3;
+    /* Ajusta a altura da linha */
   }
 
   .tagline {
-    font-size: 1rem; /* Reduz o tamanho da tagline */
+    font-size: 1rem;
+    /* Reduz o tamanho da tagline */
   }
 }
 
-@media (max-width: 480px) { /* Telas pequenas (ex: smartphones) */
+@media (max-width: 480px) {
+
+  /* Telas pequenas (ex: smartphones) */
   .banner {
-    height: 60vh; /* Ajuste a altura do banner para telas pequenas */
-    background-position: center; /* Centraliza a imagem */
+    height: 60vh;
+    /* Ajuste a altura do banner para telas pequenas */
+    background-position: center;
+    /* Centraliza a imagem */
   }
 
   .banner-content {
     margin-left: 0;
-    text-align: center; /* Centraliza o conteúdo */
+    text-align: center;
+    /* Centraliza o conteúdo */
     padding: 10px;
   }
 
   .banner h1 {
-    font-size: 1.6rem; /* Reduz ainda mais o tamanho do título */
+    font-size: 1.6rem;
+    /* Reduz ainda mais o tamanho do título */
   }
 
   .banner p {
-    font-size: 0.9rem; /* Reduz o tamanho do parágrafo */
-    line-height: 1.2; /* Ajusta a altura da linha */
+    font-size: 0.9rem;
+    /* Reduz o tamanho do parágrafo */
+    line-height: 1.2;
+    /* Ajusta a altura da linha */
   }
 
   .tagline {
-    font-size: 0.9rem; /* Reduz o tamanho da tagline */
+    font-size: 0.9rem;
+    /* Reduz o tamanho da tagline */
   }
 }
 
 /* Media Queries para celulares específicos */
-@media (max-width: 375px) { /* iPhone SE e similares */
+@media (max-width: 375px) {
+
+  /* iPhone SE e similares */
   .banner {
-    height: 60vh; /* Ajuste a altura do banner */
-    background-position: center; /* Centraliza a imagem */
+    height: 60vh;
+    /* Ajuste a altura do banner */
+    background-position: center;
+    /* Centraliza a imagem */
   }
 
   .banner-content {
-    padding: 5px; /* Reduz o padding para dispositivos pequenos */
+    padding: 5px;
+    /* Reduz o padding para dispositivos pequenos */
   }
 }
 
-@media (max-width: 412px) { /* Galaxy S21, Mi 11, etc. */
+@media (max-width: 412px) {
+
+  /* Galaxy S21, Mi 11, etc. */
   .banner {
-    height: 60vh; /* Ajuste a altura do banner */
-    background-position: center; /* Centraliza a imagem */
+    height: 60vh;
+    /* Ajuste a altura do banner */
+    background-position: center;
+    /* Centraliza a imagem */
   }
 
   .banner h1 {
-    font-size: 1.4rem; /* Reduz o tamanho do título */
+    font-size: 1.4rem;
+    /* Reduz o tamanho do título */
   }
 
   .banner p {
-    font-size: 0.8rem; /* Reduz o tamanho do parágrafo */
+    font-size: 0.8rem;
+    /* Reduz o tamanho do parágrafo */
   }
 }
