@@ -13,13 +13,13 @@ const Banner = () => {
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Nutricionista Especializada em Nutrição Clínica e Comportamental" />
         <meta property="og:description" content="Consultoria em nutrição com foco na reeducação alimentar, saúde e bem-estar. Atendimento em Uberlândia e online." />
-        <meta property="og:image" content="https://www.seusite.com/imagem-banner.jpg" />
-        <meta property="og:url" content="https://www.seusite.com" />
+        <meta property="og:image" content="https://nutricionistaisabella.netlify.app" />
+        <meta property="og:url" content="https://nutricionistaisabella.netlify.app" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Nutricionista Especializada em Nutrição Clínica e Comportamental" />
         <meta name="twitter:description" content="Consultoria em nutrição com foco na reeducação alimentar, saúde e bem-estar. Atendimento em Uberlândia e online." />
-        <meta name="twitter:image" content="https://www.seusite.com/imagem-banner.jpg" />
+        <meta name="twitter:image" content="https://nutricionistaisabella.netlify.app" />
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Helmet>
