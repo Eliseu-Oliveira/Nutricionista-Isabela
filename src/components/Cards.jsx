@@ -44,7 +44,7 @@ const Cards = () => {
     // Dados dos cards
     const cardsData = [
         { id: 1, title: "Reeducação alimentar na prática", description: "Alimentação adequada para a sua rotina.", image: image1, descriptioncomplete: "Adote uma alimentação equilibrada e personalizada para a sua rotina com a Reeducação Alimentar na Prática.Este programa é desenvolvido para ajudá-lo a transformar seus hábitos alimentares de forma simples e eficaz, respeitando suas necessidades e preferências. Você aprenderá como escolher os alimentos certos, planejar suas refeições e fazer substituições saudáveis, sem abrir mão do prazer de comer bem. Ideal para quem busca melhorar a saúde, aumentar a energia e alcançar um estilo de vida mais saudável de maneira sustentável." },
-        { id: 2, title: "Intestino preso?", description: "Liberte-se do desconforto, inchaço e gases.", image: image2 },
+        { id: 2, title: "Intestino preso?", description: "Liberte-se do desconforto, inchaço e gases.", image: image2, descriptioncomplete: "Se você está lidando com intestino preso, saiba que não está sozinho. Essa condição, também conhecida como constipação, afeta muitas pessoas e pode ser causada por diversos fatores, incluindo dieta inadequada, falta de exercícios e estresse. O intestino preso pode resultar em sintomas desconfortáveis, como inchaço, gases e dor abdominal." },
         { id: 3, title: "Emagrecimento saudável", description: "Perdendo gordura com equilibrio e sem sofrimento.", image: image3 },
         { id: 4, title: "Ganho de massa muscular", description: "Melhora de força, definição e performance.", image: image4 },
         { id: 5, title: "Comportamento alimentar e saúde mental", description: "A conexão entre alimentação e equilíbrio emocional.", image: image5 },

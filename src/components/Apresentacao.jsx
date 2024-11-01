@@ -1,6 +1,6 @@
 import React from "react";
 import "./Apresentacao.css";
-import fotoNutricionista from "../assets/bgg1.jpg"; // Importe sua imagem
+import fotoNutricionista from "../assets/bgg5.jpg"; // Importe sua imagem
 
 const Apresentacao = () => {
     return (
