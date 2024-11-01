@@ -1,18 +1,19 @@
 import React from "react";
 import "./Features.css";
 import { FaUserFriends, FaTrophy, FaLaptopMedical, FaClipboardCheck } from 'react-icons/fa';
+import { CgGym } from "react-icons/cg";
 
 const Features = () => {
   return (
     <div id="features" className="features-container">
       <div className="feature-item">
         <FaUserFriends className="feature-icon" />
-        <h3>Mais de 2 mil pacientes atendidos</h3>
+        <h3>Mais de 500 pacientes atendidos</h3>
       </div>
       <div>|</div>
       <div className="feature-item">
-        <FaTrophy className="feature-icon" />
-        <h3>Mais de 10 anos de experiência</h3>
+        <CgGym className="feature-icon" />
+        <h3>Resultados em pouco tempo de acompanhamento</h3>
       </div>
       <div>|</div>
       <div className="feature-item">

@@ -41,7 +41,7 @@ const ConsultationSection = () => {
 
         </div>
         <button className="consultation-button" onClick={handleButtonClick}>
-            Quero o Acompanhamento de 2 Meses <span className="arrow">→</span>
+        Quero fazer o acompanhamento <span className="arrow">→</span>
         </button>
     </div>
 </section>
