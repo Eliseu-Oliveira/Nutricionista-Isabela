@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <HelmetProvider>
       <Helmet>
-        <title>Nutricionista Especializada em Nutrição Clínica e Comportamental | Nutricionista Isabella Salles</title>
+        <title>Nutricionista Especializada em Nutrição Clínica e Comportamental | Nutricionista Isabella Sales</title>
         <meta name="description" content="Consultoria em nutrição clínica e comportamental com foco em hábitos saudáveis e bem-estar. Atendimento presencial em Uberlândia e online para todo o mundo." />
         <meta name="keywords" content="nutricionista, nutrição clínica, hábitos saudáveis, bem-estar, reeducação alimentar, consultas de nutrição online, alimentação equilibrada, saúde, Uberlândia, planejamento alimentar" />
 
