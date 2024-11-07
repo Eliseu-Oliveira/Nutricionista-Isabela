@@ -1,98 +1,110 @@
+/* Estilização da seção de especialidades */
 .specialties-header {
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .specialties-header h2 {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: bold;
   color: #333;
   margin-bottom: 10px;
+  letter-spacing: 1px;
 }
 
 .specialties-header p {
-  font-size: 1.2rem;
-  color: #666;
+  font-size: 1rem;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
+/* Estilização geral da seção de cards */
 .cards-section {
-  padding: 40px 0;
-  background-color: #f9f9f9;
+  padding: 40px 20px;
+  background-color: #f4f4f4;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-size: cover; 
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
+/* Container de cards */
 .cards-container {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 20px;
   max-width: 1200px;
   width: 100%;
-  padding: 0 20px;
+  padding: 0 15px;
   margin-bottom: 30px;
 }
 
+/* Estilização individual dos cards */
 .card {
-  background-color: white;
-  border-radius: 10px;
+  background-color: #fff;
+  border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s, box-shadow 0.3s;
-  max-width: 300px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 320px;
+  width: 100%;
   text-align: center;
 }
 
 .card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
 }
 
+/* Imagem do card */
 .card-image {
   width: 100%;
-  overflow: hidden; /* Oculta qualquer parte da imagem que não cabe no contêiner */
+  overflow: hidden;
 }
 
 .card-image img {
-  width: 100%; /* A largura da imagem deve ocupar 100% do contêiner */
-  height: 100%; /* A altura da imagem deve ser 100% do contêiner */
-  object-fit: cover; /* Preenche o contêiner sem distorcer a imagem */
-  border-bottom: 4px solid #cbab93; /* Borda na parte inferior */
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-bottom: 5px solid #cbab93;
 }
 
-
+/* Conteúdo do card */
 .card-content {
   padding: 20px;
 }
 
 .card-content h3 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+  color: #333;
 }
 
 .card-content p {
-  font-size: 1rem;
+  font-size: 0.95rem;
   color: #666;
   margin-bottom: 15px;
 }
 
 .card-content button {
-  padding: 10px 20px;
+  padding: 10px 25px;
   background-color: #7CA18F;
-  color: white;
+  color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s ease;
 }
 
 .card-content button:hover {
-  background-color: #CBAB93;
+  background-color: #cbab93;
 }
 
+/* Responsividade para telas menores */
 @media (max-width: 768px) {
   .cards-container {
     flex-direction: column;
@@ -104,7 +116,7 @@
   }
 }
 
-/* Modal com efeito de transição */
+/* Estilização do modal */
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -127,11 +139,11 @@
 }
 
 .modal-content {
-  background: white;
-  padding: 20px;
-  border-radius: 8px;
-  max-width: 500px;
-  width: 100%;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 600px;
+  width: 90%;
   position: relative;
   text-align: center;
   transform: scale(0.9);
@@ -142,36 +154,50 @@
   transform: scale(1);
 }
 
+/* Corpo do modal */
 .modal-body img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 20px;
+  width: 50%; /* A largura da imagem ocupa todo o espaço disponível */
+  height: auto; /* A altura é ajustada automaticamente para manter a proporção */
+  max-height: 50vh; /* Limita a altura máxima da imagem para evitar que ultrapasse a altura da tela */
+  border-radius: 10px; /* Mantém bordas arredondadas */
+  object-fit: cover; /* Garante que a imagem preencha o contêiner sem distorção */
 }
 
 .modal-body h3 {
-  margin-bottom: 10px;
+  font-size: 1.4rem;
+  margin-bottom: 8px;
 }
 
+.modal-body p {
+  max-height: 150px;
+  overflow-y: auto;
+  font-size: 0.95rem;
+  color: #555;
+  margin: 0;
+  padding-right: 10px;
+}
+
+/* Botão de fechar o modal */
 .close-button {
   position: absolute;
   top: 15px;
   right: 15px;
-  background-color: #7CA18F; 
-  color: white;
+  background-color: #7CA18F;
+  color: #fff;
   border: none;
-  border-radius: 50%; 
+  border-radius: 50%;
   width: 30px;
   height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 18px;
+  font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .close-button:hover {
-  background-color: #CBAB93; 
+  background-color: #cbab93;
 }
 
 .close-button:focus {
