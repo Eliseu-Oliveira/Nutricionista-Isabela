@@ -1,6 +1,6 @@
 # 🥦 Nutricionista Isabela &mdash; Site Institucional
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/6e04e9b5-xxxx-xxxx-xxxx-xxxxxxxxxxxx/deploy-status)](https://app.netlify.com/sites/nutricionistaisabella/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/40e964f1-188b-44f0-bfe9-84600003fa3d/deploy-status)](https://app.netlify.com/projects/nutricionistaisabella/deploys)
 ![React](https://img.shields.io/badge/React-18.x-blue)
 ![CSS](https://img.shields.io/badge/CSS-100%25-lightblue)
 ![Status](https://img.shields.io/badge/Status-Online-brightgreen)
