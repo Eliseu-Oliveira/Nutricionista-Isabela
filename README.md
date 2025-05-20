@@ -45,7 +45,7 @@ Site institucional moderno, desenvolvido para divulgar os serviços e especialid
 ## 👨‍💻 Autor
 
 Desenvolvido por **Eliseu Germano De Oliveira**  
-📫 Instagram: [@seu_usuario_aqui]()
+📫 Instagram: [@eliseugermano]()
 
 ---
 
