@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body {
+    @apply bg-marfim text-vinho font-body overflow-x-hidden;
+    background-image:
+      radial-gradient(circle at 1px 1px, rgba(91,26,10,0.035) 1px, transparent 0);
+    background-size: 22px 22px;
+  }
+  ::selection { background: #5B1A0A; color: #F3EEDF; }
+}
+
+@layer utilities {
+  .eyebrow {
+    @apply font-body text-xs font-medium tracking-[0.22em] uppercase text-terra-cl flex items-center gap-3;
+  }
+  .eyebrow::before {
+    content: '';
+    @apply inline-block w-6 h-px bg-terra-cl flex-shrink-0;
+  }
+  .section-title {
+    @apply font-display font-light text-vinho leading-[1.1] tracking-[-0.01em];
+  }
+  .focus-ring {
+    @apply focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-terracota;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

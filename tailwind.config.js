@@ -1,0 +1,21 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    extend: {
+      colors: {
+        vinho:    '#5B1A0A',
+        terracota:'#7A1F0C',
+        'terra-cl':'#9C5E3A',
+        bege:     '#E4D3BF',
+        marfim:   '#F3EEDF',
+        branco:   '#FDFAF5',
+      },
+      fontFamily: {
+        display: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+        body:    ['"DM Sans"', 'system-ui', 'sans-serif'],
+      },
+    },
+  },
+  plugins: [],
+}
