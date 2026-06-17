@@ -138,7 +138,6 @@ export default function Hero() {
           animate={{ scaleY: [1, 0.55, 1], opacity: [0.4, 0.15, 0.4] }}
           transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
         />
-        Rolar
       </motion.div>
     </section>
   )
