@@ -48,7 +48,7 @@ export default function Servicos() {
         >
           <div>
             <p className="eyebrow mb-4 text-bege before:bg-bege">Serviços</p>
-            <h2 className="font-display font-light text-marfim text-[clamp(1.9rem,3.8vw,3rem)] leading-[1.1] tracking-[-0.01em]">
+            <h2 className="font-titulo text-marfim text-[clamp(1.9rem,3.8vw,3rem)] leading-[1.08] tracking-[0.01em]">
               O que ofereço
             </h2>
           </div>
@@ -72,7 +72,7 @@ export default function Servicos() {
                 <Icon size={18} className="text-marfim/75 group-hover:text-bege transition-colors duration-300" strokeWidth={1.5} />
               </div>
               <div>
-                <h3 className="font-display font-normal text-[1.2rem] text-marfim mb-2.5">
+                <h3 className="font-titulo text-[1.2rem] text-marfim mb-2.5">
                   {title}
                 </h3>
                 <p className="font-body text-[0.87rem] leading-[1.8] text-marfim/50">

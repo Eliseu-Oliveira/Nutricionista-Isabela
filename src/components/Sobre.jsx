@@ -42,7 +42,7 @@ export default function Sobre() {
         >
           <p className="eyebrow mb-4">Sobre Bella Sales</p>
           <h2 className="section-title text-[clamp(1.9rem,3.8vw,3rem)] mb-7">
-            Uma nutricionista que <em className="italic">ouve antes de prescrever</em>
+            Uma nutricionista que <em className="font-display italic">ouve antes de prescrever</em>
           </h2>
           <p className="font-body text-[0.97rem] leading-[1.9] text-vinho/65 mb-4">
             Sou Bella Sales, nutricionista clínica e comportamental, apaixonada

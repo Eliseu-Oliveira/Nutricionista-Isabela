@@ -76,7 +76,7 @@ export default function Hero() {
             <br />
             a comida pode ser
             <br />
-            <em className="italic text-terracota font-light">saudável e leve.</em>
+            <em className="font-display italic text-terracota font-light">saudável e leve.</em>
           </motion.h1>
 
           <motion.p

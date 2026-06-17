@@ -32,7 +32,7 @@ export default function Depoimentos() {
         >
           <p className="eyebrow mb-4">Depoimentos</p>
           <h2 className="section-title text-[clamp(1.9rem,3.8vw,3rem)]">
-            O que minhas pacientes <em className="italic">dizem</em>
+            O que minhas pacientes <em className="font-display italic">dizem</em>
           </h2>
         </motion.div>
 

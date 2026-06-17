@@ -32,7 +32,7 @@ export default function Abordagem() {
         >
           <p className="eyebrow mb-4">Como trabalho</p>
           <h2 className="section-title text-[clamp(1.9rem,3.8vw,3rem)] max-w-xl">
-            Uma abordagem <em className="italic">que vai além do prato</em>
+            Uma abordagem <em className="font-display italic">que vai além do prato</em>
           </h2>
         </motion.div>
 
@@ -63,7 +63,7 @@ export default function Abordagem() {
                   <div className="w-1.5 h-1.5 rounded-full bg-terra-cl/40 group-hover:bg-terracota transition-colors duration-300" />
                 </div>
               </div>
-              <h3 className="font-display font-normal text-[1.32rem] text-vinho mb-3">
+              <h3 className="font-titulo text-[1.32rem] text-vinho mb-3">
                 {c.title}
               </h3>
               <p className="font-body text-[0.89rem] leading-[1.85] text-vinho/55">

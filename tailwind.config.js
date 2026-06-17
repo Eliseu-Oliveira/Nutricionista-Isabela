@@ -14,6 +14,7 @@ export default {
       fontFamily: {
         display: ['"Cormorant Garamond"', 'Georgia', 'serif'],
         body:    ['"DM Sans"', 'system-ui', 'sans-serif'],
+        titulo:  ['Forum', 'Georgia', 'serif'],
       },
     },
   },

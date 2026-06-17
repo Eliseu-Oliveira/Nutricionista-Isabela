@@ -37,7 +37,7 @@ export default function Processo() {
         >
           <p className="eyebrow mb-4">Como funciona</p>
           <h2 className="section-title text-[clamp(1.9rem,3.8vw,3rem)]">
-            Do primeiro contato ao <em className="italic">resultado</em>
+            Do primeiro contato ao <em className="font-display italic">resultado</em>
           </h2>
         </motion.div>
 
@@ -60,7 +60,7 @@ export default function Processo() {
                 <span className="font-body text-[0.72rem] font-medium tracking-[0.18em] uppercase text-terra-cl block mb-3">
                   {s.num}
                 </span>
-                <h3 className="font-display font-normal text-[1.18rem] text-vinho mb-2.5">
+                <h3 className="font-titulo text-[1.18rem] text-vinho mb-2.5">
                   {s.title}
                 </h3>
                 <p className="font-body text-[0.86rem] leading-[1.85] text-vinho/55">

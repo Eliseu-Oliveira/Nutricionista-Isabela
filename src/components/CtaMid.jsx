@@ -13,8 +13,8 @@ export default function CtaMid() {
         className="relative max-w-7xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-7"
       >
         <div>
-          <h2 className="font-display font-light text-vinho text-[clamp(1.6rem,3.5vw,2.6rem)] leading-[1.18] tracking-[-0.01em]">
-            Pronta para cuidar de <em className="italic">você de verdade?</em>
+          <h2 className="font-titulo text-vinho text-[clamp(1.6rem,3.5vw,2.6rem)] leading-[1.18] tracking-[0.01em]">
+            Pronta para cuidar de <em className="font-display italic">você de verdade?</em>
           </h2>
           <p className="font-body text-[0.92rem] text-vinho/55 mt-3 max-w-md leading-relaxed">
             Primeira consulta com avaliação completa e plano de ação personalizado.
