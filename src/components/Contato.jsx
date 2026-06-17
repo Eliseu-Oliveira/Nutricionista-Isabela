@@ -22,8 +22,8 @@ export default function Contato() {
           Vamos começar sua <em className="italic">jornada</em>
         </h2>
         <p className="font-body text-[0.95rem] text-vinho/60 mb-11 leading-[1.85] max-w-md mx-auto">
-          Entre em contato pelo WhatsApp ou me siga no Instagram para marcar
-          sua consulta e tirar dúvidas.
+          Entre em contato pelo WhatsApp para marcar
+          sua consulta ou me siga no Instagram para tirar dúvidas.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
