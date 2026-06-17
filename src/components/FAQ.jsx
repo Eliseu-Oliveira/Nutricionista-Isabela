@@ -4,12 +4,12 @@ import { Plus } from 'lucide-react'
 
 const faqs = [
   {
-    q: 'Como funciona a consulta online?',
-    a: 'A consulta online é realizada por videochamada (Google Meet ou similar), com a mesma qualidade e atenção do atendimento presencial. Você recebe o plano alimentar por e-mail após a consulta.',
+    q: 'Como funciona o acompanhamento  online?',
+    a: 'A consulta online é realizada por videochamada (via Google Meet), com a mesma qualidade e atenção do atendimento presencial, o que muda é somente a avaliação física, no online eu ensino o paciente a fazer em casa. O plano alimentar é enviado via grupo de acompanhamento, onde será apresentado e discutido sempre e podendo ser feito mudanças durante todo o tempo do acompanhamento.',
   },
   {
-    q: 'Qual a duração de cada consulta?',
-    a: 'A primeira consulta tem duração de 60 a 90 minutos. Os retornos costumam durar de 40 a 60 minutos, dependendo da demanda.',
+    q: 'Qual a duração de cada acompanhamento ?',
+    a: 'A primeira reunião do acompanhamento tem duração de 60 a 90 minutos.',
   },
   {
     q: 'A nutrição comportamental substitui a psicologia?',
@@ -17,7 +17,7 @@ const faqs = [
   },
   {
     q: 'Com que frequência devo retornar?',
-    a: 'Nos primeiros meses, retornos quinzenais ou mensais são recomendados. Com a evolução, o acompanhamento pode se espaçar conforme a sua necessidade.',
+    a: 'Nos primeiros meses, retornos mensais ou trimestrais são recomendados. Com a evolução, o acompanhamento pode se espaçar conforme a sua necessidade.',
   },
   {
     q: 'Atende plano de saúde?',

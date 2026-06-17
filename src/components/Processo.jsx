@@ -4,7 +4,7 @@ const steps = [
   {
     num: '01',
     title: 'Primeiro Contato',
-    desc: 'Você agenda pelo WhatsApp ou Instagram e escolhe horário e modalidade — online ou presencial.',
+    desc: 'Você agenda pelo WhatsApp e escolhe horário e modalidade — online ou presencial.',
   },
   {
     num: '02',
