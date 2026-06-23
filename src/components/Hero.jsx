@@ -70,7 +70,7 @@ export default function Hero() {
 
           <motion.h1
             variants={item}
-            className="section-title text-[clamp(2.2rem,5.8vw,4.6rem)] mb-6"
+            className="section-title text-[clamp(2.2rem,5.8vw,4.6rem)] !tracking-[-0.03em] mb-6"
           >
             Sua relação com
             <br />

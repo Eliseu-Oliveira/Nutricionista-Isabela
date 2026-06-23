@@ -27,7 +27,7 @@
       radial-gradient(circle at 1px 1px, rgba(91,26,10,0.035) 1px, transparent 0);
     background-size: 22px 22px;
   }
-  ::selection { background: #5B1A0A; color: #F3ECDB; }
+  ::selection { background: #5B1A0A; color: #F3EEDF; }
 }
 
 @layer utilities {

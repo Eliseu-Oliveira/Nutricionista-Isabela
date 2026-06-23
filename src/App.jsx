@@ -8,6 +8,7 @@ import CtaMid from './components/CtaMid'
 import Processo from './components/Processo'
 import Depoimentos from './components/Depoimentos'
 import FAQ from './components/FAQ'
+import Manifesto from './components/Manifesto'
 import Contato from './components/Contato'
 import Footer from './components/Footer'
 import WhatsappFloat from './components/WhatsappFloat'
@@ -26,6 +27,7 @@ export default function App() {
         <Processo />
         <Depoimentos />
         <FAQ />
+        <Manifesto />
         <Contato />
       </main>
       <Footer />
