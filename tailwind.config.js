@@ -8,7 +8,7 @@ export default {
         terracota:'#7A1F0C',
         'terra-cl':'#9C5E3A',
         bege:     '#E4D3BF',
-        marfim:   '#F3EEDF',
+        marfim:   '#F3ECDB',
         branco:   '#FDFAF5',
       },
       fontFamily: {
