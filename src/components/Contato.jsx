@@ -19,7 +19,7 @@ export default function Contato() {
           Contato
         </p>
         <h2 className="section-title text-[clamp(1.9rem,4vw,3rem)] mb-5">
-          Vamos começar sua <em className="font-display italic">jornada</em>
+          Vamos começar sua <em className="not-italic">jornada</em>
         </h2>
         <p className="font-body text-[0.95rem] text-vinho/60 mb-11 leading-[1.85] max-w-md mx-auto">
           Entre em contato pelo WhatsApp para marcar

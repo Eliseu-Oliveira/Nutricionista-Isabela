@@ -48,8 +48,8 @@ export default function FAQ() {
             transition={{ duration: 0.7, ease }}
           >
             <p className="eyebrow mb-4 text-bege before:bg-bege">Dúvidas frequentes</p>
-            <h2 className="font-titulo text-marfim text-[clamp(1.9rem,3.8vw,3rem)] leading-[1.08] tracking-[0.01em]">
-              Perguntas <em className="font-display italic">comuns</em>
+            <h2 className="font-titulo uppercase text-marfim text-[clamp(1.9rem,3.8vw,3rem)] leading-[1.15] tracking-[0.02em]">
+              Perguntas <em className="not-italic">comuns</em>
             </h2>
             <p className="font-body text-[0.92rem] text-marfim/45 mt-6 leading-[1.85] max-w-xs">
               Tire suas dúvidas antes de agendar. Se não encontrar sua
@@ -72,7 +72,7 @@ export default function FAQ() {
                   className="focus-ring w-full flex items-center justify-between gap-4 py-5 text-left"
                   aria-expanded={open === i}
                 >
-                  <span className="font-titulo text-[1.05rem] text-marfim">
+                  <span className="font-body font-medium text-[1rem] text-marfim">
                     {f.q}
                   </span>
                   <Plus

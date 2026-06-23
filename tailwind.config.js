@@ -12,8 +12,8 @@ export default {
         branco:   '#FDFAF5',
       },
       fontFamily: {
-        display: ['"Cormorant Garamond"', 'Georgia', 'serif'],
-        body:    ['"DM Sans"', 'system-ui', 'sans-serif'],
+        display: ['Cormorant', 'Georgia', 'serif'],
+        body:    ['"Glacial Indifference"', 'system-ui', 'sans-serif'],
         titulo:  ['Forum', 'Georgia', 'serif'],
       },
     },

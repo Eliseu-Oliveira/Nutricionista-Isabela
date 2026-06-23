@@ -1,4 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Forum&family=DM+Sans:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Forum&display=swap');
+
+@font-face {
+  font-family: 'Glacial Indifference';
+  src: url('./fonts/GlacialIndifference-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Glacial Indifference';
+  src: url('./fonts/GlacialIndifference-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 
 @tailwind base;
 @tailwind components;
@@ -24,7 +39,7 @@
     @apply inline-block w-6 h-px bg-terra-cl flex-shrink-0;
   }
   .section-title {
-    @apply font-titulo text-vinho leading-[1.08] tracking-[0.01em];
+    @apply font-titulo text-vinho uppercase leading-[1.15] tracking-[0.02em];
   }
   .focus-ring {
     @apply focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-terracota;
