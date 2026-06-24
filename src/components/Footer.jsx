@@ -12,11 +12,11 @@ export default function Footer() {
             <img
               src={logoSimbol}
               alt=""
-              className="h-6 brightness-0 invert opacity-55"
+              className="h-6 brightness-0 invert opacity-70"
               loading="lazy"
               decoding="async"
             />
-            <span className="font-titulo uppercase text-marfim/55 text-[0.95rem] tracking-[0.02em] leading-none">
+            <span className="font-titulo uppercase text-marfim/70 text-[0.95rem] tracking-[0.02em] leading-none">
               Bella Sales
             </span>
           </div>

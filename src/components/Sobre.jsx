@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import fotoPerfil from '../assets/bella-retrato.jpeg'
+import fotoPerfil from '../assets/bella-sobre.jpeg'
 
 const ease = [0.22, 1, 0.36, 1]
 

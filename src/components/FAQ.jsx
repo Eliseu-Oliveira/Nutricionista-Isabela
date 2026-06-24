@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Plus } from 'lucide-react'
+import fotoFaq from '../assets/bella-retrato.jpeg'
 
 const faqs = [
   {
@@ -47,6 +48,18 @@ export default function FAQ() {
             viewport={{ once: true, margin: '-80px' }}
             transition={{ duration: 0.7, ease }}
           >
+            <div
+              className="hidden md:block w-32 aspect-[3/4] rounded-sm overflow-hidden mb-8"
+              style={{ boxShadow: '0 20px 44px -16px rgba(0,0,0,0.4)' }}
+            >
+              <img
+                src={fotoFaq}
+                alt="Bella Sales"
+                className="w-full h-full object-cover object-top"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
             <p className="eyebrow mb-4 text-bege before:bg-bege">Dúvidas frequentes</p>
             <h2 className="font-titulo uppercase text-marfim text-[clamp(1.9rem,3.8vw,3rem)] leading-[1.15] tracking-[0.02em]">
               Perguntas <em className="not-italic">comuns</em>
