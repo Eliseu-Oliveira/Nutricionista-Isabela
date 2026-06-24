@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import fotoPerfil from '../assets/perfil.jpeg'
+import fotoPerfil from '../assets/bella-retrato.jpeg'
 
 const ease = [0.22, 1, 0.36, 1]
 
@@ -22,7 +22,7 @@ export default function Sobre() {
             <img
               src={fotoPerfil}
               alt="Bella Sales, nutricionista"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover object-top"
               loading="lazy"
               decoding="async"
             />

@@ -33,10 +33,7 @@ export default function Hero() {
           <img
             src={logoSimbol}
             alt=""
-            className="w-[58vw] md:w-[30vw] max-w-[460px] opacity-[0.9]"
-            style={{
-              filter: 'sepia(1) hue-rotate(-10deg) saturate(1.4) brightness(0.95)',
-            }}
+            className="w-[58vw] md:w-[30vw] max-w-[460px] opacity-[0.85]"
           />
           {/* Soft vinho glow behind the symbol for depth */}
           <div
@@ -70,7 +67,7 @@ export default function Hero() {
 
           <motion.h1
             variants={item}
-            className="section-title text-[clamp(2.2rem,5.8vw,4.6rem)] !tracking-[-0.04em] mb-6"
+            className="section-title text-[clamp(2.2rem,5.8vw,4.6rem)] mb-6 max-w-none whitespace-normal"
           >
             Sua relação com
             <br />

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Menu, X } from 'lucide-react'
-import logoHorizontal from '../assets/LOGO_HORIZONTAL_BELLA_SALES.png'
+import logoSimbol from '../assets/LOGO_SIMBOLO_BELLA_SALES.png'
 
 const links = [
   { label: 'Sobre', href: '#sobre' },
@@ -38,8 +38,15 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 md:px-10 flex items-center justify-between h-16 md:h-[70px]">
         {/* Logo */}
-        <a href="#inicio" onClick={() => handleLink('#inicio')}>
-          <img src={logoHorizontal} alt="Bella Sales" className="h-8 md:h-9" />
+        <a
+          href="#inicio"
+          onClick={() => handleLink('#inicio')}
+          className="flex items-center gap-2.5"
+        >
+          <img src={logoSimbol} alt="" className="h-7 md:h-8" />
+          <span className="font-titulo uppercase text-vinho text-[1.05rem] md:text-[1.2rem] tracking-[0.02em] leading-none">
+            Bella Sales
+          </span>
         </a>
 
         {/* Desktop links */}

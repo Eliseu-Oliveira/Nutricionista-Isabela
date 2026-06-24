@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import fotoDepoimentos from '../assets/bella-depoimentos.jpeg'
 
 const depoimentos = [
   {
@@ -24,17 +25,41 @@ export default function Depoimentos() {
   return (
     <section id="depoimentos" className="bg-marfim py-24 md:py-32 px-6 md:px-10">
       <div className="max-w-7xl mx-auto">
-        <motion.div
-          initial={{ opacity: 0, y: 16 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: '-80px' }}
-          transition={{ duration: 0.7, ease }}
-        >
-          <p className="eyebrow mb-4">Depoimentos</p>
-          <h2 className="section-title text-[clamp(1.9rem,3.8vw,3rem)]">
-            O que minhas pacientes <em className="not-italic">dizem</em>
-          </h2>
-        </motion.div>
+        <div className="grid grid-cols-1 lg:grid-cols-[1fr_220px] gap-10 lg:gap-14 items-end">
+          <motion.div
+            initial={{ opacity: 0, y: 16 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: '-80px' }}
+            transition={{ duration: 0.7, ease }}
+          >
+            <p className="eyebrow mb-4">Depoimentos</p>
+            <h2 className="section-title text-[clamp(1.9rem,3.8vw,3rem)]">
+              O que minhas pacientes <em className="not-italic">dizem</em>
+            </h2>
+          </motion.div>
+
+          {/* Foto pequena, reforço de credibilidade */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.95 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true, margin: '-80px' }}
+            transition={{ duration: 0.7, ease, delay: 0.1 }}
+            className="hidden lg:block"
+          >
+            <div
+              className="aspect-[4/5] rounded-sm overflow-hidden"
+              style={{ boxShadow: '0 20px 44px -16px rgba(91,26,10,0.22)' }}
+            >
+              <img
+                src={fotoDepoimentos}
+                alt="Bella Sales"
+                className="w-full h-full object-cover"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+          </motion.div>
+        </div>
 
         <div className="mt-14 grid grid-cols-1 sm:grid-cols-3 gap-6">
           {depoimentos.map((d, i) => (

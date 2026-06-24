@@ -1,5 +1,5 @@
 import { MapPin } from 'lucide-react'
-import logoHorizontal from '../assets/LOGO_HORIZONTAL_BELLA_SALES.png'
+import logoSimbol from '../assets/LOGO_SIMBOLO_BELLA_SALES.png'
 
 export default function Footer() {
   const year = new Date().getFullYear()
@@ -8,13 +8,18 @@ export default function Footer() {
     <footer className="bg-vinho py-9 px-6 md:px-10 border-t border-marfim/[0.06]">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-5 md:gap-8">
         <div className="flex flex-col gap-2">
-          <img
-            src={logoHorizontal}
-            alt="Bella Sales"
-            className="h-7 brightness-0 invert opacity-55"
-            loading="lazy"
-            decoding="async"
-          />
+          <div className="flex items-center gap-2.5">
+            <img
+              src={logoSimbol}
+              alt=""
+              className="h-6 brightness-0 invert opacity-55"
+              loading="lazy"
+              decoding="async"
+            />
+            <span className="font-titulo uppercase text-marfim/55 text-[0.95rem] tracking-[0.02em] leading-none">
+              Bella Sales
+            </span>
+          </div>
           <span className="flex items-center gap-1.5 font-body text-[0.7rem] text-marfim/35 tracking-[0.04em]">
             <MapPin size={12} strokeWidth={1.8} />
             Uberlândia, MG · Atendimento presencial e online
