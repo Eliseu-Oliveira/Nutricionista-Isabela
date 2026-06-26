@@ -15,7 +15,7 @@ export default function CtaMid() {
       >
         {/* Foto, pequena, redonda — toque humano sem dominar a faixa */}
         <div
-          className="hidden sm:block w-20 h-20 md:w-24 md:h-24 rounded-full overflow-hidden flex-shrink-0"
+          className="hidden sm:block w-24 h-24 md:w-64 md:h-64 rounded-full overflow-hidden flex-shrink-0"
           style={{ boxShadow: '0 12px 28px -8px rgba(91,26,10,0.3)' }}
         >
           <img
@@ -29,7 +29,7 @@ export default function CtaMid() {
 
         <div className="flex-1">
           <h2 className="font-titulo uppercase text-vinho text-[clamp(1.6rem,3.5vw,2.6rem)] leading-[1.2] tracking-[0.02em]">
-            Pronta para cuidar de <em className="not-italic">você de verdade?</em>
+            Pronto(a) para cuidar de <em className="not-italic">você de verdade?</em>
           </h2>
           <p className="font-body text-[0.92rem] text-vinho/55 mt-3 max-w-md leading-relaxed">
             Primeira consulta com avaliação completa e plano de ação personalizado.

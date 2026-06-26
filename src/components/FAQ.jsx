@@ -49,7 +49,7 @@ export default function FAQ() {
             transition={{ duration: 0.7, ease }}
           >
             <div
-              className="hidden md:block w-32 aspect-[3/4] rounded-sm overflow-hidden mb-8"
+              className="hidden md:block w-44 aspect-[3/4] rounded-sm overflow-hidden mb-8"
               style={{ boxShadow: '0 20px 44px -16px rgba(0,0,0,0.4)' }}
             >
               <img

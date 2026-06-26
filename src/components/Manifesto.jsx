@@ -20,7 +20,7 @@ export default function Manifesto() {
         }}
       />
 
-      <div className="relative max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-[280px_1fr] gap-12 lg:gap-16 items-center">
+      <div className="relative max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-[320px_1fr] gap-12 lg:gap-16 items-center">
         {/* Foto, pequena, lateral — presença humana sem dominar a composição */}
         <motion.div
           initial={{ opacity: 0, x: -20 }}
@@ -36,7 +36,7 @@ export default function Manifesto() {
             <img
               src={fotoLifestyle}
               alt="Bella Sales"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover scale-125"
               loading="lazy"
               decoding="async"
             />
