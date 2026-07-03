@@ -15,13 +15,13 @@ export default function CtaMid() {
       >
         {/* Foto, pequena, redonda — toque humano sem dominar a faixa */}
         <div
-          className="hidden sm:block w-24 h-24 md:w-64 md:h-64 rounded-full overflow-hidden flex-shrink-0"
+          className="hidden sm:block w-64 h-64 md:w-[520px] md:h-[520px] rounded-full overflow-hidden flex-shrink-0"
           style={{ boxShadow: '0 12px 28px -8px rgba(91,26,10,0.3)' }}
         >
           <img
             src={fotoCta}
             alt="Bella Sales"
-            className="w-full h-full object-cover object-top"
+            className="w-full h-full object-cover object-center"
             loading="lazy"
             decoding="async"
           />
